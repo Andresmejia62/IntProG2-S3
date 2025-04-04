@@ -1,7 +1,7 @@
-temp_fah=float(input("Ingresa la temperatura en Fahrenheit: "))
-temp_cel = temp_fah - 32
-temp_cel = temp_cel * 5
-temp_cel = temp_cel / 9
-temp_kel = temp_cel + 273.15
-print(f"La temperatura en Celsius es  { temp_cel:.2f}")
-print(f"La temperatura en Kelvin es  { temp_kel:.2f}")
+print("Bienvenido a tu conversora")
+cordobas = float(input("Ingrese la cantidad en cordobas "))
+dolares = cordobas / 36.25
+euros = dolares * 1.07
+print(f"Tu cantidad en euros es de:{euros:.2f} euros")
+
+
